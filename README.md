@@ -2,6 +2,8 @@
 
 This template stores user authentication details within a global state.
 
+![screenshot1](https://github.com/Jon-Dickinson/react-auth0/blob/master/src/images/auth-react.jpg)
+
 ## Instructions
 
 ```bash
@@ -13,6 +15,8 @@ yarn install
 
 Create a free account with `auth0.com`
 
+![screenshot2](https://github.com/Jon-Dickinson/react-auth0/blob/master/src/images/Auth0-screenshot.jpg)
+
 Create an `.env` file within the project root to store the application keys and add the following:
 
 ```bash
@@ -21,6 +25,10 @@ REACT_APP_AUTH0_CLIENT_ID=[CLIENT ID]
 ```
 
 Replace `[DOMAIN]` and `[CLIENT ID]` with the details from your `auth0.com` account.
+
+![screenshot3](https://github.com/Jon-Dickinson/react-auth0/blob/master/src/images/logged-out-screenshot.png)
+
+![screenshot4](https://github.com/Jon-Dickinson/react-auth0/blob/master/src/images/logged-in-screenshot.png)
 
 ## React systems and processes
 
